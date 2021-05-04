@@ -1,0 +1,32 @@
+.user-listing-page {
+  .user-listing--wrapper {
+    padding: 30px 20px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    li {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+  }
+  .media {
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    .media-aside {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    h5 {
+      font-weight: 700;
+    }
+    .user-data {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  }
+}
